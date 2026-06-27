@@ -176,7 +176,7 @@ activities:
       - 'MANGROVE_ROOTS'
     rewards:
       woodcuttingtokens:
-        chance: 10.0
+        chance: 12.0
         notperm: "ability.timber"
         commands:
           - 'tokens give {player} {amount} -s -sf'
