@@ -1,0 +1,33 @@
+Rex:
+  Type: IRON_GOLEM
+  Display: '&aRex' 
+  Health: 100
+  Damage: 20
+  IgnoreArmor: true 
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_SWORD OFFHAND
+  Options:
+    Despawn: false
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 100
+    PreventOtherDrops: true
+    PreventSunburn: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  - players
+  DamageModifiers:
+  - FALL 0
+  - FIRE 0
+  - PROJECTILE 0
+  - THORNS 0
+  Disguise: Player Rexmen setName &c&lRex
+  Skills: 
+  - jsonmessage{m="[{'text':'&c&lRex >> I will nerf you!'}]"} @PlayersInRadius{r=30} ~onTimer:1200
+  Modules:
+    ThreatTable: true
+  KillMessages:
+  - '<target.name> got nerfed by balancing!'
