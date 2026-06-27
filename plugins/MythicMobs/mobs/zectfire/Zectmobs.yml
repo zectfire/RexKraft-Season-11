@@ -31,3 +31,139 @@ Rex:
     ThreatTable: true
   KillMessages:
   - '<target.name> got nerfed by balancing!'
+MountBear:
+  Type: POLAR_BEAR
+  Health: 250
+  Damage: 1
+  Options:
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.5
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+Rexarch:
+  Type: STRAY
+  Display: Rex
+  Health: 35
+  Damage: 3
+  Equipment:
+  - BOW
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.25
+    PreventSunburn: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Disguise: Player Rexmen setName &c&lRex
+Zelda:
+  Type: IRON_GOLEM
+  Health: 250
+  Damage: 1
+  Options:
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.5
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Disguise: Player xMissZeldax setName &c&lZelda
+Zect:
+  Type: STRAY
+  Mount: Zelda
+  Display: Zect
+  Health: 50
+  Damage: 5
+  Equipment:
+  - BONE HAND
+  - BONE OFFHAND
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    PreventSunburn: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Disguise: Player Zectfire setName &c&Zect
+Nubi:
+  Type: IRON_GOLEM
+  Display: Nubi
+  Health: 69
+  Damage: 3
+  Equipment:
+  - STONE HAND
+  - STONE OFFHAND
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.25
+    PreventSunburn: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Disguise: Player Nubi setName &c&lNubi
+  KillMessages:
+  - '<target.name> Sent to funland!'
