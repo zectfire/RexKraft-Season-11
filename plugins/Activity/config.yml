@@ -195,10 +195,6 @@ activities:
         hasperm: "ability.timber"
         commands:
           - 'bpa give points {player} {amount}'          
-#     ranksexp:
-#       chance: 1.7
-#       commands:
-#         - 'rankupadmin xp give {player} {amount}'
       woodcuttingshards:
         chance: 0.25
         notperm: "ability.timber"
@@ -268,10 +264,6 @@ activities:
         chance: 0.01
         commands:
           - 'bpa give points {player} {amount}'
-#      ranksexp:
-#        chance: 2.0
-#        commands:
-#          - 'rankupadmin xp give {player} {amount}'
       farmingshards:
         chance: 0.15
         commands:
@@ -314,22 +306,6 @@ activities:
       - 'ICE'
       - 'PACKED_ICE'
       - 'BLUE_ICE'
-      - 'COAL_ORE'
-      - 'DEEPSLATE_COAL_ORE'
-      - 'IRON_ORE'
-      - 'DEEPSLATE_IRON_ORE'
-      - 'COPPER_ORE'
-      - 'DEEPSLATE_COPPER_ORE'
-      - 'GOLD_ORE'
-      - 'DEEPSLATE_GOLD_ORE'
-      - 'REDSTONE_ORE'
-      - 'DEEPSLATE_REDSTONE_ORE'
-      - 'LAPIS_ORE'
-      - 'DEEPSLATE_LAPIS_ORE'
-      - 'DIAMOND_ORE'
-      - 'DEEPSLATE_DIAMOND_ORE'
-      - 'EMERALD_ORE'
-      - 'DEEPSLATE_EMERALD_ORE'
       - 'AMETHYST_BLOCK'
       - 'BUDDING_AMETHYST'
       - 'END_STONE'  # Not in Overworld but included in original list
@@ -356,10 +332,6 @@ activities:
         commands:
           - 'bpa give points {player} {amount}'
 
-#     ranksexp:
-#       chance: 4.0
-#       commands:
-#         - 'rankupadmin xp give {player} {amount}'
       miningshards:
         chance: 0.15
         notperm: "ability.trench"
@@ -443,10 +415,6 @@ activities:
         hasperm: "ability.trench"
         commands:
           - 'bpa give points {player} {amount}'
-#     ranksexp:
-#       chance: 1.7
-#       commands:
-#         - 'rankupadmin xp give {player} {amount}'
       diggingshards:
         chance: 0.15
         notperm: "ability.trench"
@@ -508,10 +476,6 @@ activities:
         chance: 0.40
         commands:
           - 'bpa give points {player} {amount}' 
-#      ranksexp:
-#        chance: 33.0
-#        commands:
-#          - 'rankupadmin xp give {player} {amount}'
       fishingshards:
         chance: 4.0
         commands:
@@ -550,10 +514,6 @@ activities:
         chance: 2.5
         commands:
           - 'bpa give points {player} {amount}' 
-#      ranksexp:
-#        chance: 100.0
-#        commands:
-#          - 'rankupadmin xp give {player} {amount}'
       breedingshards:
         chance: 5.0
         commands:
@@ -614,10 +574,6 @@ activities:
         chance: 0.2
         commands:
           - 'bpa give points {player} {amount}' 
-#     ranksexp:
-#       chance: 5.0
-#       commands:
-#         - 'rankupadmin xp give {player} {amount}'
       killingshards:
         chance: 2.0
         commands:
@@ -649,10 +605,6 @@ activities:
         chance: 10.0
         commands:
           - 'tokens give {player} {amount} -s -sf'
- #     ranksexp:
- #       chance: 10.0
- #       commands:
- #         - 'rankupadmin xp give {player} {amount}'
       craftingshards:
         chance: 1.0
         commands:
@@ -1062,10 +1014,6 @@ activities:
         chance: 0.1
         commands:
           - 'bpa give points {player} {amount}' 
-#      ranksexp:
-#        chance: 30.0
-#        commands:
-#          - 'rankupadmin xp give {player} {amount}'
       buildingshards:
         chance: 0.4
         commands:
@@ -1086,10 +1034,6 @@ activities:
         chance: 100.0
         commands:
           - 'tokens give {player} {amount} -s -sf'
- #     ranksexp:
- #       chance: 10.0
- #       commands:
- #         - 'rankupadmin xp give {player} {amount}'
       chatshards:
         chance: 2.5
         commands:
